@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c; /* Gris oscuro para el fondo general */
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Espacia el contenido del encabezado */
+    align-items: center;
+    background-color: #3a3a3a; /* Fondo gris oscuro */
+    padding: 20px;
+}
+
+.ninja-logo img {
+    width: 100px;
+    height: auto;
+    /* Posicionar en la esquina */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #c0c0c0; /* Texto en gris claro */
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    background-color: #5a5a5a; /* Color gris más oscuro al pasar el ratón */
+    border-radius: 5px;
+}
+
+/* Sección Inicio */
+section#inicio {
+    background-color: #2e2e2e; /* Fondo gris más claro */
+    padding: 50px;
+    text-align: center;
+}
+
+#inicio .perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Proyectos */
+#proyectos .proyecto {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: #4e4e4e; /* Fondo gris intermedio */
+}
+
+.tarjeta {
+    background-color: #3a3a3a; /* Fondo gris oscuro para las tarjetas */
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Sección Habilidades */
+section#habilidades {
+    background-color: #5a5a5a; /* Fondo gris más claro para habilidades */
+}
+
+/* Footer */
+footer {
+    background-color: #3a3a3a; /* Mantén el fondo gris oscuro para el pie de página */
+    padding: 20px;
+    text-align: center;
+}
+
+footer .redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Ajustar las imágenes de las habilidades */
+.habilidad img {
+    width: 80px;  /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción */
+    margin-bottom: 10px;
+}
+
+/* Estilos para las estrellas */
+.estrellas {
+    font-size: 20px; /* Tamaño de las estrellas */
+    color: gold;     /* Color dorado para las estrellas */
+    letter-spacing: 2px; /* Espacio entre estrellas */
+}
+
+/* Centrar las habilidades */
+#habilidades .habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 habilidades por fila */
+    gap: 20px; /* Espacio entre cada habilidad */
+    justify-items: center; /* Centra cada habilidad en su celda */
+}
+
+.habilidad {
+    max-width: 120px; /* Tamaño máximo de cada habilidad */
+    text-align: center;
+}
+
+/* Cambiar a 4 habilidades por fila en pantallas grandes */
+@media (min-width: 992px) {
+    #habilidades .habilidades {
+        grid-template-columns: repeat(4, 1fr); /* 4 habilidades por fila */
+    }
+}

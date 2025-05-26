@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Miguel Ángel Magaña Sánchez</title>
+    <meta name="description" content="Portafolio de Miguel Ángel Magaña Sánchez, programador de videojuegos especializado en Unity, Unreal Engine y Godot.">
+    <meta property="og:title" content="Portafolio - Miguel Ángel Magaña Sánchez">
+    <meta property="og:description" content="Programador de videojuegos: Unity, Unreal Engine, Godot, VFX y desarrollo de shaders.">
+    <meta property="og:image" content="ninja.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Stylesheet/Style.css">
+    <!--script src="js/main.js" defer></script-->
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="ninja.png" alt="Logo ninja" loading="lazy" width="100" height="auto" />
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+                <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+                <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header__logo--alt">
+            <img src="Art.png" alt="Arte secundario" loading="lazy" width="100" height="auto">
+        </div>
+    </header>
+
+    <section id="inicio" class="section section--intro">
+        <div class="intro__perfil">
+            <img src="perfil.jpg" alt="Foto de perfil de Miguel Ángel" loading="lazy" width="250" height="210">
+            <h1 class="intro__title">Miguel Ángel Magaña Sánchez</h1>
+            <p class="intro__subtitle">Programador especializado en videojuegos.</p>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section section--about">
+        <h2 class="section__title">Sobre mí</h2>
+        <p class="about__text">Soy Miguel Ángel Magaña Sánchez, programador de videojuegos con experiencia en Unity, Unreal Engine y Godot. Me especializo en gameplay, simulaciones gráficas y efectos visuales (VFX) avanzados, como shaders para iluminación, agua y partículas dinámicas. Domino C++, C#, Python y Java, y busco crear experiencias inmersivas e innovadoras en la industria.</p>
+    </section>
+
+    <section id="proyectos" class="section section--projects">
+        <h2 class="section__title">Proyectos</h2>
+        <div class="projects__grid">
+            <!-- Cada tarjeta de proyecto -->
+            <article class="project-card">
+                <h3 class="project-card__title">Pablito 3D World</h3>
+                <p class="project-card__desc">Multijugador de tercera persona cooperativo para recolectar trofeos de Pablito.</p>
+                <div class="project-card__media">
+                    <img src="pablito.png" alt="Captura de Pablito 3D World" loading="lazy">
+                </div>
+            </article>
+            <!-- Repite para cada proyecto -->
+            <article class="project-card">
+                <h3 class="project-card__title">Wedding Party Massacre</h3>
+                <p class="project-card__desc">Shooter en primera persona donde proteges una boda de un ataque terrorista.</p>
+                <div class="project-card__media">
+                    <img src="WeddingM.png" alt="Captura de Wedding Party Massacre" loading="lazy">
+                </div>
+            </article>
+            <article class="project-card">
+                <h3 class="project-card__title">Escape Uniat</h3>
+                <p class="project-card__desc">Juego de puzzles donde resolver enigmas es vital para escapar de la universidad.</p>
+                <div class="project-card__media">
+                    <img src="EscapeUniat.png" alt="Captura de Escape Uniat" loading="lazy">
+                </div>
+            </article>
+            <article class="project-card">
+                <h3 class="project-card__title">Túnel de Partículas</h3>
+                <p class="project-card__desc">VFX: impresionante túnel de partículas al entrar en zona específica.</p>
+                <div class="project-card__media">
+                    <img src="Particles.gif" alt="Túnel de partículas" loading="lazy">
+                </div>
+            </article>
+            <article class="project-card">
+                <h3 class="project-card__title">Material Portal</h3>
+                <p class="project-card__desc">Simulación de portal con materiales dinámicos para efectos visuales.</p>
+                <div class="project-card__media">
+                    <img src="vfx.gif" alt="Material Portal VFX" loading="lazy">
+                </div>
+            </article>
+            <article class="project-card">
+                <h3 class="project-card__title">Lluvia de Meteoros</h3>
+                <p class="project-card__desc">Animación VFX que simula una lluvia de meteoros.</p>
+                <div class="project-card__media">
+                    <img src="Meteor.gif" alt="Lluvia de meteoros" loading="lazy">
+                </div>
+            </article>
+            <article class="project-card">
+                <h3 class="project-card__title">Shockwave VFX</h3>
+                <p class="project-card__desc">Onda expansiva simulando explosión o impacto.</p>
+                <div class="project-card__media">
+                    <img src="wave.gif" alt="Shockwave VFX" loading="lazy">
+                </div>
+            </article>
+            <article class="project-card">
+                <h3 class="project-card__title">Shader Retro</h3>
+                <p class="project-card__desc">Shader personalizado con efecto pixelado estilo retro.</p>
+                <div class="project-card__media">
+                    <img src="pixel.gif" alt="Shader Retro" loading="lazy">
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section section--skills">
+        <h2 class="section__title">Habilidades</h2>
+        <div class="skills__grid">
+          <div class="skill-card">
+            <img src="unreal.png" alt="Unreal Engine" loading="lazy">
+            <p>Unreal</p>
+            <div class="skill-card__stars">★★★☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="unity.png" alt="Unity" loading="lazy">
+            <p>Unity</p>
+            <div class="skill-card__stars">★★★☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="godot.png" alt="Godot" loading="lazy">
+            <p>Godot</p>
+            <div class="skill-card__stars">★★☆☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="csharp.png" alt="C#" loading="lazy">
+            <p>C#</p>
+            <div class="skill-card__stars">★★★☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="python.png" alt="Python" loading="lazy">
+            <p>Python</p>
+            <div class="skill-card__stars">★★★★☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="html.png" alt="HTML" loading="lazy">
+            <p>HTML</p>
+            <div class="skill-card__stars">★★★☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="java.png" alt="Java" loading="lazy">
+            <p>Java</p>
+            <div class="skill-card__stars">★★☆☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="C++.png" alt="C++" loading="lazy">
+            <p>C++</p>
+            <div class="skill-card__stars">★★☆☆☆</div>
+          </div>
+          <div class="skill-card">
+            <img src="php.png" alt="PHP" loading="lazy">
+            <p>PHP</p>
+            <div class="skill-card__stars">★★★☆☆</div>
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="contacto" class="section section--contact">
+        <h2 class="section__title">Contacto</h2>
+        <form action="enviar_formulario.php" method="POST" class="contact-form">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+            <label for="correo">Correo</label>
+            <input id="correo" type="email" name="correo" placeholder="Tu correo" required>
+            <label for="asunto">Asunto</label>
+            <input id="asunto" type="text" name="asunto" placeholder="Asunto">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn btn--primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="https://www.facebook.com/profile.php?id=100016458913345"><img src="facebook.png" alt="Facebook" loading="lazy"></a>
+            <a href="https://www.linkedin.com/in/miguel-angel-maga%C3%B1a-sanchez-422713337/"><img src="linkedin.png" alt="LinkedIn" loading="lazy"></a>
+            <a href="https://github.com/Asura675"><img src="Github.png" alt="GitHub" loading="lazy"></a>
+        </div>
+        <div class="footer__contact">
+            <p>Correo: <a href="mailto:miguel_m19@outlook.com">miguel_m19@outlook.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
